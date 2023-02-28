@@ -1,5 +1,5 @@
 <template>
-  <section class="depositions">
+  <section id="depoimentos" class="depositions">
     <div class="container">
       <h2 class="depositions__title">Depoimentos de quem já passou por aqui</h2>
 

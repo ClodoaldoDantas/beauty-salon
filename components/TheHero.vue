@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="inicio" class="hero">
     <div class="container">
       <div class="hero__banner">
         <picture>
@@ -37,14 +37,14 @@ export default {
 @import '@/assets/styles/helpers.scss';
 
 .hero {
-  padding-top: 2rem;
+  padding-top: 7.5rem;
 
   @include large {
-    padding-top: 4rem;
+    padding-top: 8.5rem;
   }
 
   @include x-large {
-    padding-top: 5rem;
+    padding-top: 9.5rem;
   }
 
   &::after {
